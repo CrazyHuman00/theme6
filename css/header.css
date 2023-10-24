@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.navigation {
+    display: flex;
+    height: 50px;
+    padding: 0 5em;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-items {
+    flex-grow: 1 1 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigation-item {
+    list-style: none;
+    padding: 0 2em;
+}
