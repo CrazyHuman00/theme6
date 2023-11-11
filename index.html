@@ -4,29 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>g2253037 thema6</title>
-    <link rel="stylesheet" href="theme6/css/header.css">
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href=".css/footer.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navigation">
-            <ul class="navigation-items">
-                <li class="navigation-item">
-                    <a class="nav-link" href="./index.html">
-                        トップ
-                    </a>
-                    <a class="nav-link" href="./html/research_task.html">
-                        調査課題
-                    </a>
-                    <a class="nav-link" href="./html/evaluation_experiment.html">
-                        評価実験
-                    </a>
-                    <a class="nav-link" href="./html/papers.html">
-                        論文紹介
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <!-- バナー -->
+    <div class="banner">
+        <div class="banner-image">
+            <img src="./images/back.jpeg" alt="header image">
+        </div>
+        <span class="banner-title">
+            情報理工学実験 テーマ06<br />
+            By H.Asakura
+        </span>
+    </div>
+
+    <!-- リンクのナビゲート -->
+    <nav class="navigation">
+        <ul class="navigation-items">
+            <li class="navigation-item">
+                <a class="nav-link" href="./index.html">
+                    トップ
+                </a>
+            </li>
+            <li class="navigation-item">
+                <a class="nav-link" href="./html/research_task.html">
+                    調査課題
+                </a>
+            </li>
+            <li class="navigation-item">
+                <a class="nav-link" href="./html/evaluation_experiment.html">
+                    評価実験
+                </a>
+            </li>
+            <li class="navigation-item">
+                <a class="nav-link" href="./html/papers.html">
+                    論文紹介
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- トップの内容 -->
+    <div class="content">
+        <h1>
+            トップ
+        </h1>
+        <span class="date">更新<time datetime="2023-10-03">2023年 11月 11日</time></span>
+        <h2>
+            実験の目的
+        </h2>
+        <p>
+            この実験では、Webの仕組みを理解し、Webドキュメントの文書データの管理についての理解を深める。
+            具体的には、Web文書のアクセシビリティ検証ツールを使い、様々なWebサイトのアクセシビリティを調査・考察する。そしてアクセシビリティについてどのような工夫がされているかを学ぶ。また、アクセシビリティの調査から得た学びを活かして、実際にアクセシビリティに配慮したWeb制作を体験することが目的である。
+        </p>
+
+        <h2 class="researcher-name">
+            実験実施者
+        </h2>
+        <p>
+            朝倉 滉人（g2253037）<br>実施期間: 2023/10/17 ~ 2023/10/31
+        </p>
+    </div>
+
+    <!-- コピーライトおよびW3C -->
+    <div class="footer">
+        <hr>
+            <div class="footer-w3c">
+            <table>
+                <tr>
+                    <td>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                alt="正当なCSSです!" >
+                        </a>
+
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                                alt="正当なCSSです!" >
+                        </a>
+                    <td>
+                </tr>
+            </table>
+        </hr>
+
+        <p class="footer-copyright">&copy; Copyright 2023 H.Asakura</p>
+    </div>
+
+    </div>
+    </html>
 
 </body>
-</html>
