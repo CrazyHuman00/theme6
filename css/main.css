@@ -5,7 +5,55 @@
     overflow-wrap: break-word;
     flex-grow: 2;
     padding: 1em;
-    background: #9595c7;
+    background: #acd5ff;
     border-radius: 1em;
     max-width: 100%;
+    margin: 2% auto;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.topic-path {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.topic-path a {
+    color: blue;
+    text-decoration: none;
+}
+
+.topic-path li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.75em;
+    padding-right: 1em;
+}
+
+.topic-path li::before {
+    content: "";
+    position: absolute;
+    top: .45em;
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+}
+
+.topic-path li:first-child {
+    padding-left: 0;
+}
+
+.topic-path li:first-child:before {
+    width: 0;
+    height: 0;
+    border: none;
 }
