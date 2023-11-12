@@ -57,3 +57,12 @@
     height: 0;
     border: none;
 }
+
+.table-view {
+    text-align: center;
+}
+
+.table-view table {
+    text-align: left;
+    margin: 0; /* テーブルを水平方向に中央寄せ */
+}
